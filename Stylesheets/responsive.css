@@ -1,0 +1,257 @@
+@media (max-width:767px)  {
+  .foot-nav {
+    display: none;
+  }
+
+}
+/*************************************************
+Main 768 Media
+*************************************************/
+
+@media (min-width: 768px) {
+  .main-nav li {
+    display: inline;  
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .main-nav {
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .main-nav a {
+    display: inline;
+  }
+
+.intro  {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    font-size: 17px;
+  }
+
+  .intro p  {
+    padding-top: 12px;  
+    line-height: 1.5em;
+    padding-right: 20px;
+    margin-top: 0;
+  }
+
+
+/*************************************************
+Main 768 profile Media
+*************************************************/
+
+  .profile-pic  {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .background-pic {
+    display: block;
+    background-color: #ddd;
+    min-width: 300px;
+    min-height: 170px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+
+  .pic  {
+    width: 350px;
+  }
+
+  .col  {
+    float: left;
+    width: 50%;
+  }
+
+  .col p  {
+    line-height: 1.5em;
+    width: 74%;
+  }
+
+/*************************************************
+Main 768 Skill Media
+*************************************************/
+
+  .skill-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col2 {
+    margin: 0 auto;
+  }
+
+/*************************************************
+Main 768 Footer Media
+*************************************************/
+
+ .main-footer {
+    margin-top: -60px;
+    width: 70%;
+    line-height: 1.5em;
+  }
+
+  .main-footer p  {
+    font-size: 1.30em;
+  }
+  
+  .mail,
+  .phone  {
+    font-size: 20px;
+  }
+
+  .bottom {
+    padding-bottom: 20px;
+  }
+
+  .number {
+   font-size: 20px;
+  }
+
+  .to-top {
+    display: none;
+  }
+
+  .foot-nav {
+    display: inline;
+  }
+  
+  .foot-nav li {
+    display: inline;  
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  .foot-nav {
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+ 
+  .foot-nav a {
+    text-decoration: none;
+    color: #555555;
+    font-weight: bold;
+    font-size: .85rem;
+  }
+   .col:nth-child(3) {
+    clear: left;
+  }
+}
+
+
+/*************************************************
+Main 1024 Media
+*************************************************/
+
+
+@media (min-width: 1024px)  {
+  
+   body {
+    background-color: #f2f2f2;
+  }
+  
+  .container1 {
+      width: 100%;
+    }
+
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container2 h1  {
+    margin: 20px 0 0 30px;
+  }
+
+/*************************************************
+Main 1024 Portfolio Media
+*************************************************/ 
+
+  .portfolio  {
+    background-color: #fff;
+    padding-top: 20px;
+  }
+
+  .profile-pic  {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .background-pic {
+    display: block;
+    background-color: #ddd;
+    min-width: 300px;
+    min-height: 170px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+
+  .intro  {
+    margin: 0 auto;
+  }
+
+  .intro p  {
+    font-size: 1.25rem;  
+    padding-right: 30px;
+    margin-top: 0;
+  }
+
+  .col  {
+    width: 33%;
+  }
+
+   .col p  {
+    line-height: 1.3em;
+    width: 84%;
+  }
+
+  .pic  {
+    width: 300px;
+  }
+
+/*************************************************
+Main 1024 Skill Media
+*************************************************/ 
+ 
+  .col2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skill-flex {
+    width: 45%;
+  }
+
+/*************************************************
+Main 1024 Footer Media
+*************************************************/ 
+
+  .main-footer p  {
+      width: 70%;
+      margin: 0 auto 30px;
+      font-size: 1.20em;
+  }
+
+  .foot-nav {
+    margin-bottom: 10px;
+  }
+
+   .col:nth-child(3) {
+    clear: none;
+  }
+
+  .col:nth-child(4) {
+   clear: left;
+  }
+
+  .bottom {
+    margin-top: 40px;
+  }
+}
+

@@ -1,0 +1,246 @@
+/*************************************************
+Main CSS Layout
+*************************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  font-size: .90em;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.main-nav a:hover,
+.foot-nav a:hover,
+a:hover  {
+  color: green;
+}
+
+/*************************************************
+Header Layout
+*************************************************/
+
+.main-header  {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 20px 20px 40px 20px;
+}
+
+h1  {
+  margin-top: 0;
+}
+
+.container1 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-nav ul{
+  padding-left: 0;
+}
+
+.main-nav li {
+  list-style: none;
+  background-color: #fff;
+  padding: 10px 0;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #555555;
+  font-weight: bold;
+  display: block;
+}
+
+.intro  {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.profile-pic  {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.background-pic {
+  display: block;
+  background-color: #ddd;
+  max-width: 220px;
+  max-height: 170px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto 20px;
+}
+
+
+/*************************************************
+Section Layout
+*************************************************/
+
+.portfolio  {
+  width: 95%;
+  margin: 0 auto;
+  
+}
+
+.pic  {
+  width: 290px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.col  {
+  text-align: center;
+}
+
+.port-title  {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h3  {
+  font-weight: normal;
+  font-size: 1.30em;
+}
+
+.col p  {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+/*************************************************
+Skills Layout
+*************************************************/
+
+.skill-wrap {
+  display: flex;
+}
+
+.skills {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.wrapper2 h4  {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.col2 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.col2 ul  {
+  padding-left: 0;
+}
+
+.col2 li  {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background: #3a94f2;
+  margin-top: 10px;
+  list-style: none;
+  color: #fff;
+}
+
+.col2 li:nth-child(even) {
+  background: #fa9f1b;
+}
+
+/*************************************************
+Footer Layout
+*************************************************/
+
+footer  {
+  background-color: #f2f2f2;
+  margin-top: 100px;
+}
+
+.main-footer  {
+  text-align: center;
+  padding-top: 40px;
+  width: 90%;
+  margin: -40px auto 0;
+}
+
+.contact {
+  margin-bottom: 30px;
+}
+
+.info {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.mail,
+.phone  {
+  display: inline-block;
+  padding:10px;
+}
+
+.number {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+
+.bottom {
+  border-top: 1px dotted #ccc;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.to-top {
+  text-decoration: none;
+  color: #555;
+}
+
+.footer-nav {
+  display: none;
+}
+
+/*************************************************
+GALLERY PAGE  
+*************************************************/
+
+.main-footer2  {
+  background-color: #f2f2f2;
+  height: 100px;
+  width: 100%;
+
+}
+
+/*************************************************
+Fix
+*************************************************/
+
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+
